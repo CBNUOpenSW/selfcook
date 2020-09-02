@@ -1,0 +1,145 @@
+/* fundamental CSS */
+html, body {
+    width : 100%;
+    height : 100%;
+    margin : 0 auto;
+    background-color : #f7f9fb;
+    /*overflow : hidden;*/
+
+    font-family: 'Poor Story', cursive;
+    font-family: 'Sriracha', cursive;
+}
+
+body#home-background {
+    background-image : url('..\\IMAGE\\38309.jpg');
+	background-repeat : no-repeat;
+	background-size : cover;
+
+}
+
+div.wrapper {
+    width : 100%;
+    height : 100%;
+    text-align : left;
+    margin : 0 auto;
+}
+
+nav, section.explanation {
+    float : left;
+    height : 100%;   
+}
+
+nav {
+    position : fixed;
+    background-color : #fff;
+    width : 400px;
+    /*border : 5px;*/
+}
+
+h1 {
+    font-family: 'Sriracha', cursive;
+    text-align :center;
+    font-size : 40px;
+}
+
+h2, br {
+    font-family: 'Poor Story', cursive;
+}
+
+ul {
+    font-weight : bold;
+    list-style-type: none;
+    font-family: 'Poor Story', cursive;
+    /*font-family: 'Sriracha', cursive;*/
+}
+
+li {
+    line-height: 350%;
+    font-family: 'Poor Story', cursive;
+}
+
+p, br {
+    font-family: 'Poor Story', cursive;
+    
+}
+
+/* Main page */
+a {
+    text-decoration : none;
+}
+
+section.explanation {
+    margin-left : 400px;
+    position : relative;
+    top : 200px;
+    background-color : #fff;
+    width :520px;
+    height : 470px;
+}
+
+article {
+    /* width : 90%;*/
+    margin : 20px;
+    background-color: #f7f9fb;
+    font-family: 'Poor Story', cursive;
+}
+
+/* Menu1 page */
+body.menu-body {
+    background-color : #f7f9fb;
+    overflow : hidden;
+}
+section.recipe-wrap {
+    text-align : center;
+    padding : 10px;
+    margin-left : 400px;
+    height : 100%;
+    overflow : auto;
+}
+
+div.recipe-post {
+    /* border color : 영역 구분을 위한 임시 설정 색 */
+    border : 3px solid gold;
+    /*float : left;*/
+    width : 300px;
+    padding : 10px;
+    margin : 30px;
+    display: inline-block;
+    vertical-align : middle;
+}
+
+div.food-image {
+    border : 3px solid black;
+    margin : 0 auto;
+    height : 221px;
+    width : 297px;
+}
+
+/*Youtube-recipe*/
+div.youtube-play {
+    border : 3px solid gold;
+    margin-left : 600px;
+    width : 900px;
+    height : 925px;
+}
+
+div.youtube-area {
+    border : 3px solid black;
+    text-align : center;    /*text 표시 때문에 사용*/
+    margin-top : 90px;
+    height : 500px;
+}
+
+div.recipe {
+    position : absolute; top : 600px; left : 0px;
+    border : 3px solid red;
+    margin-left : 600px;
+    width : 900px;
+    height : 320px;
+}
+
+ol { 
+    display: table;
+    margin-left: 0px;
+    margin-right: auto;
+}
