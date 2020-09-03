@@ -158,6 +158,7 @@ ol {
     display: table;
     margin-left: 0px;
     margin-right: auto;
+    float : left;
 }
 
 
