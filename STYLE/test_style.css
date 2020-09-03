@@ -32,7 +32,7 @@ nav, section.explanation {
 nav {
     position : fixed;
     background-color : #fff;
-    width : 400px;
+    width : 20%;
     /*border : 5px;*/
 }
 
@@ -46,16 +46,20 @@ h2, br {
     font-family: 'Poor Story', cursive;
 }
 
+
 ul {
+    -webkit-padding-start: 0px;
     font-weight : bold;
     list-style-type: none;
     font-family: 'Poor Story', cursive;
-    /*font-family: 'Sriracha', cursive;*/
+    
 }
 
 li {
     line-height: 350%;
     font-family: 'Poor Story', cursive;
+    margin-bottom: 5px;
+    border-bottom: 1px solid #efefef;
 }
 
 p, br {
@@ -143,3 +147,22 @@ ol {
     margin-left: 0px;
     margin-right: auto;
 }
+
+
+
+
+#leftMenu .menuLink { 
+    text-decoration:none; 
+    color: white; 
+    display: block; 
+} 
+#leftMenu .menuLink:hover { 
+    background-color: #8d8d8d; 
+}
+
+li a {
+    margin-left:10px;
+    color: black;
+    display:block;
+}
+
