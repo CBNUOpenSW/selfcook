@@ -3,8 +3,7 @@ html, body {
     width : 100%;
     height : 100%;
     margin : 0 auto;
-    background-color : #f7f9fb;
-    /*overflow : hidden;*/
+    background-color : #bceaff;
 
     font-family: 'Poor Story', cursive;
     font-family: 'Sriracha', cursive;
@@ -25,15 +24,14 @@ div.wrapper {
 }
 
 nav, section.explanation {
+    position : absolute;
     float : left;
-    height : 100%;   
 }
 
 nav {
-    position : fixed;
     background-color : #fff;
     width : 230px;
-    /*border : 5px;*/
+    height : 100%;  
 }
 
 h1 {
@@ -50,8 +48,19 @@ h1 a {
 h2, br {
     font-family: 'Poor Story', cursive;
 }
+p.title {
+    font-weight: bold; 
+    font-size : 40px; 
+    text-align: center;
+    margin-top : 70px;
+}
+article.explanation {
+    padding : 10px;
+}
 
-
+.homepage_ex {
+    font-size : 23px;
+}
 ul {
     -webkit-padding-start: 0px;
     font-weight : bold;
@@ -75,7 +84,6 @@ li a {
 
 p, br {
     font-family: 'Poor Story', cursive;
-    
 }
 
 /* Main page */
@@ -84,10 +92,9 @@ a {
 }
 
 section.explanation {
-    margin-left : 400px;
-    position : relative;
-    top : 200px;
+    margin-top : 200px;
     background-color : #fff;
+    left : 230px;
     width :520px;
     height : 470px;
 }
@@ -95,15 +102,16 @@ section.explanation {
 article {
     /* width : 90%;*/
     margin : 20px;
-    background-color: #f7f9fb;
+    background-color: #f7f9fb00;
     font-family: 'Poor Story', cursive;
 }
 
 /* Menu1 page */
 body.menu-body {
-    background-color : #f7f9fb;
+    background-color : #bceaff;
     overflow : hidden;
 }
+
 section.recipe-wrap {
     text-align : center;
     padding : 10px;
@@ -114,7 +122,8 @@ section.recipe-wrap {
 
 div.recipe-post {
     /* border color : 영역 구분을 위한 임시 설정 색 */
-    border : 3px solid gold;
+    border : 3px solid rgba(255, 217, 0, 0);
+    background : #fff;
     /*float : left;*/
     width : 300px;
     padding : 10px;
@@ -124,41 +133,64 @@ div.recipe-post {
 }
 
 div.food-image {
-    border : 3px solid black;
-    margin : 0 auto;
+    border : 3px solid rgba(0, 0, 0, 0);
+    margin-bottom : 20px;
     height : 221px;
     width : 297px;
 }
 
 /*Youtube-recipe*/
 div.youtube-play {
-    border : 3px solid gold;
-    margin-left : 300px;
-    position:relative;
+    position : absolute;
+    border : 3px solid rgba(255, 217, 0, 0);
+    left : 230px; top : 7%;
+    margin-left : 5%;
     width : 900px;
-    height : 925px;
 }
 
 div.youtube-area {
-    border : 3px solid black;
+    border : 3px solid rgba(0, 0, 0, 0);
     text-align : center;    /*text 표시 때문에 사용*/
     margin-top : 90px;
     height : 500px;
 }
 
 div.recipe {
-    position : absolute; top : 600px; left : 0px;
-    border : 3px solid red;
-    margin-left : 300px;
-    width : 900px;
-    height : 320px;
+    position : absolute; top : 95.5px;
+    border : 3px solid rgba(255, 0, 0, 0);
+    background : #fff;
+    left : 1231.141px;
+    overflow : auto;
+    text-align : center;
+    width : 600px;
+    height : 75%;
+}
+
+
+::-webkit-scrollbar { 
+    width: 10px; height: 10px;
+}
+
+::-webkit-scrollbar-track { 
+    background-color: #bceaff00;
+    border-radius : 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-clip: padding-box;
+	background : #025981;
+	border-radius : 8px;
 }
 
 ol { 
-    display: table;
+    display : table;
     margin-left: 0px;
     margin-right: auto;
     float : left;
+<<<<<<< HEAD
+=======
+    width : 40%
+>>>>>>> develop
 }
 
 
@@ -172,6 +204,3 @@ ol {
 #leftMenu .menuLink:hover { 
     background-color: #8d8d8d; 
 }
-
-
-
