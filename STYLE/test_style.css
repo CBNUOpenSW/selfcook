@@ -49,18 +49,25 @@ h2, br {
     font-family: 'Poor Story', cursive;
 }
 p.title {
+    margin-top : 50px;
+    margin-bottom : 10px;
     font-weight: bold; 
-    font-size : 40px; 
+    font-size : 30px; 
     text-align: center;
-    margin-top : 70px;
 }
-article.explanation {
-    padding : 10px;
+
+p#source {
+    font-size : 17px;
 }
 
 .homepage_ex {
-    font-size : 23px;
+    font-size : 20px;
 }
+
+.source-link {
+    color : rgb(10, 54, 248);
+}
+
 ul {
     -webkit-padding-start: 0px;
     font-weight : bold;
